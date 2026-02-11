@@ -7,6 +7,7 @@ resource "random_id" "bucket_suffix" {
   byte_length = 6
 }
 
+# Change name of the bucket as pleased
 resource "aws_s3_bucket" "static_website_bucket" {
   bucket = "static-website-${random_id.bucket_suffix.hex}"
 }
