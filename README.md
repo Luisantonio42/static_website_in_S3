@@ -33,7 +33,6 @@ terraform plan
 terraform apply
 ```
 
-#-------------------------------------------------------------------
 
 ## Optional: Custom Domain
 
