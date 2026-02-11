@@ -31,6 +31,7 @@ From the repo root:
 terraform init
 terraform plan
 terraform apply
+```
 
 #-------------------------------------------------------------------
 
